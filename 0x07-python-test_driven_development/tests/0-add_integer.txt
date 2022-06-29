@@ -1,14 +1,13 @@
 Import the function:
 --------------------
-    >>> add_integer = __import__("0-add_integer").add_integer
+>>> add_integer = __import__("0-add_integer").add_integer
 
 Now test it:
-------------
-    >>> add_integer(1, 1)
-    2
-
-    >>> add_integer(1, 9.3)
-    10
+-----------
+>>> add_integer(1, 1)
+ 2
+>>> add_integer(1, 9.3)
+ 10
 
     >>> add_integer(2)
     100
